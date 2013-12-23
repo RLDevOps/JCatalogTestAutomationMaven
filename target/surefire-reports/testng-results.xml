@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.rl.selenium.AppTest" duration-ms="3338" started-at="2013-12-23T19:12:15Z" finished-at="2013-12-23T19:12:18Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="3338" started-at="2013-12-23T19:12:15Z" finished-at="2013-12-23T19:12:18Z">
+      <class name="com.rl.selenium.AppTest">
+        <test-method status="PASS" signature="Testlogin()" name="Testlogin" duration-ms="2248" started-at="2013-12-23T19:12:15Z" finished-at="2013-12-23T19:12:17Z">
+        </test-method>
+        <test-method status="PASS" signature="TestproductList()" name="TestproductList" duration-ms="70" started-at="2013-12-23T19:12:17Z" finished-at="2013-12-23T19:12:17Z">
+        </test-method>
+        <test-method status="PASS" signature="TestcategoryOne()" name="TestcategoryOne" duration-ms="110" started-at="2013-12-23T19:12:17Z" finished-at="2013-12-23T19:12:17Z">
+        </test-method>
+        <test-method status="PASS" signature="Testcategorytwo()" name="Testcategorytwo" duration-ms="250" started-at="2013-12-23T19:12:17Z" finished-at="2013-12-23T19:12:18Z">
+        </test-method>
+        <test-method status="PASS" signature="Testcategorythree()" name="Testcategorythree" duration-ms="94" started-at="2013-12-23T19:12:18Z" finished-at="2013-12-23T19:12:18Z">
+        </test-method>
+        <test-method status="PASS" signature="Testcategoryfour()" name="Testcategoryfour" duration-ms="64" started-at="2013-12-23T19:12:18Z" finished-at="2013-12-23T19:12:18Z">
+        </test-method>
+        <test-method status="PASS" signature="Testcontactus()" name="Testcontactus" duration-ms="130" started-at="2013-12-23T19:12:18Z" finished-at="2013-12-23T19:12:18Z">
+        </test-method>
+        <test-method status="PASS" signature="Testplaceorder()" name="Testplaceorder" duration-ms="130" started-at="2013-12-23T19:12:18Z" finished-at="2013-12-23T19:12:18Z">
+        </test-method>
+        <test-method status="PASS" signature="TestloginFailed()" name="TestloginFailed" duration-ms="180" started-at="2013-12-23T19:12:18Z" finished-at="2013-12-23T19:12:18Z">
+        </test-method>
+        <test-method status="PASS" signature="Testlogout()" name="Testlogout" duration-ms="40" started-at="2013-12-23T19:12:18Z" finished-at="2013-12-23T19:12:18Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
