@@ -18,12 +18,12 @@ public class AppTest extends MainDriver{
 	
 	
 	public static void openBrowser(){
-		Properties prop = new Properties();
+	//	Properties prop = new Properties();
 		
 
     //	try {
                
-    		prop.load(new FileInputStream("config.properties"));
+    	//	prop.load(new FileInputStream("config.properties"));
     		driver = new HtmlUnitDriver();
     		String deployUrl=prop.getProperty("url");
     		//url = url.replace("\\", "");
