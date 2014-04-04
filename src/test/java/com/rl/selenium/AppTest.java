@@ -21,7 +21,7 @@ public class AppTest extends MainDriver{
 		Properties prop = new Properties();
 		
 
-    	try {
+    //	try {
                
     		prop.load(new FileInputStream("config.properties"));
     		driver = new HtmlUnitDriver();
@@ -35,9 +35,9 @@ public class AppTest extends MainDriver{
                 System.out.println(prop.getProperty("username"));
                 System.out.println(prop.getProperty("password"));
     	*/	
-    	} catch (IOException ex) {
-    		ex.printStackTrace();
-        }
+    //	} catch (IOException ex) {
+    	//	ex.printStackTrace();
+       // }
 				
 	}
 	
