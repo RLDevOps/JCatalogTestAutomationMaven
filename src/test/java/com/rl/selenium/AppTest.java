@@ -25,10 +25,10 @@ public class AppTest extends MainDriver{
                
     	//	prop.load(new FileInputStream("config.properties"));
     		driver = new HtmlUnitDriver();
-    		String deployUrl=prop.getProperty("url");
+    		String deployUrl=System.getProperty("url");
     		//url = url.replace("\\", "");
     		//System.out.println(url);
-    		driver.get(prop.getProperty(deployUrl));
+    		driver.get(deployUrl);
     		
                //get the property value and print it out
                /* System.out.println(prop.getProperty("url"));
