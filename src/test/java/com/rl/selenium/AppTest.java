@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 import org.openqa.selenium.By;
-//import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 //import org.openqa.selenium.ie.InternetExplorerDriver;
 
