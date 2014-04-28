@@ -24,8 +24,8 @@ public class AppTest extends MainDriver{
     //	try {
                
     	//	prop.load(new FileInputStream("config.properties"));
-    		//driver = new HtmlUnitDriver();
-    		driver = new FirefoxDriver();
+    		driver = new HtmlUnitDriver();
+    		//driver = new FirefoxDriver();
     		String deployUrl=System.getProperty("url");
     		//url = url.replace("\\", "");
     		//System.out.println(url);
